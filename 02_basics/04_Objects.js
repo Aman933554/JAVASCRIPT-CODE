@@ -85,3 +85,70 @@ console.log(Object.entries(tinderUser));
 
 // kai bar values object me exist nhi karta hai to pusch sakte ho
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+// destructuring 
+// 1. destructuring of Array
+// 2. destructuring of 
+
+// Destructuring of object      // react padhoge to waha se object milega us object ko destructuring karke value lena hoga
+
+const course = {
+    coursename: "js in English",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+// course.courseInstructor
+const {courseInstructor} = course
+console.log(courseInstructor);
+
+
+// const {courseInstructor : Instructor} = course
+// console.log(Instructor);  
+
+// yahi hai destructuring of object
+
+
+
+//APIs 
+
+//pahle backend se value xml me aata tha ab
+// JSON ME aata hai 
+
+// JSON     APIs in object formate
+ {
+    "name": "hitesh",
+   " coursename": :"js in english",
+   " price": "free"
+ }
+
+
+//  APIs in array formate
+[
+
+   {},   //ye  object hai array k ander
+   {},
+   {},
+   {},
+]
+
+
+
+// extra
+// 1. Ruby on Rails
+// Type: Web development framework
+// Language: Ruby
+// Use: Websites aur web applications ka backend banane ke liye.
+// Example: E-commerce website, booking system.
+
+// 2. PHP
+// Type: Programming language
+// Use: Dynamic websites aur backend development ke liye.
+// Example: WordPress aur server-side applications.
+
+// 3. JSON
+// Full Form: JavaScript Object Notation
+// Type: Data format
+// Use: Applications ke beech data exchange karne ke liye.
+
+
