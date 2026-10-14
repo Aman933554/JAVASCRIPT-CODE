@@ -116,11 +116,11 @@ console.log(courseInstructor);
 // JSON ME aata hai 
 
 // JSON     APIs in object formate
- {
-    "name": "hitesh",
-   " coursename": :"js in english",
-   " price": "free"
- }
+//  {
+//     "name": "hitesh",
+//    " coursename": :"js in english",
+//    " price": "free"
+//  }
 
 
 //  APIs in array formate
